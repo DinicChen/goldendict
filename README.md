@@ -29,6 +29,16 @@ This code has been run and tested on Windows XP/Vista/7, Ubuntu Linux, Mac OS X.
          libao-dev libavutil-dev libavformat-dev libtiff5-dev libeb16-dev \
          libqt5webkit5-dev libqt5svg5-dev libqt5x11extras5-dev qttools5-dev \
          qttools5-dev-tools qtmultimedia5-dev libqt5multimedia5-plugins
+         
+#### Installing External Deps on CentOS Linux for Qt5
+
+    sudo yum install git pkg-config gcc gcc-c++ make qt5-qtbase-devel \
+         libvorbis-devel zlib-devel hunspell-devel xorg-x11-proto-devel \
+         qtwebkit qtwebkit-devel libxtst-devel lzo-devel bzip2-devel \
+         libao-devel ffmpeg-devel qt5-qtwebkit qt5-qtwebkit-devel \
+         qt5-qtsvg-devel qt5-qtx11extras qt5-qtx11extras-devel qt5-qttools \
+         qt5-qttools-devel qt5-qtmultimedia qt5-qtmultimedia-devel eb-devel \
+         libtiff-devel fftw-devel
 
 ## How to build
 
