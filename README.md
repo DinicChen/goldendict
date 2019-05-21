@@ -30,7 +30,7 @@ This code has been run and tested on Windows XP/Vista/7, Ubuntu Linux, Mac OS X.
          libqt5webkit5-dev libqt5svg5-dev libqt5x11extras5-dev qttools5-dev \
          qttools5-dev-tools qtmultimedia5-dev libqt5multimedia5-plugins
          
-#### Installing External Deps on CentOS Linux for Qt5
+### Installing External Deps on CentOS Linux for Qt5
 
     sudo yum install git pkg-config gcc gcc-c++ make qt5-qtbase-devel \
          libvorbis-devel zlib-devel hunspell-devel xorg-x11-proto-devel \
